@@ -1,53 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width-device-width, initial-scale=1.0">
-		<title>Eurydice's Page - Art</title>
-	</head>
-	<body>
-		<h1>Art</h1>
-		<a href="index.html">Home</a>
-		<p>
-			<a href="img/Do%20you%20feel%20the%20building%20sway.webp">
-				<img src="img/thumbs/Do%20you%20feel%20the%20building%20sway.webp" alt="Do you feel the building sway" loading="lazy">
-			</a>
-			<br>
-			<a href="img/Endless%20mode.webp">
-				<img src="img/thumbs/Endless%20mode.webp" alt="Endless mode" loading="lazy">
-			</a>
-			<br>
-			<a href="img/Hold%20on%20through%20the%20earthquake.webp">
-				<img src="img/thumbs/Hold%20on%20through%20the%20earthquake.webp" alt="Hold on through the earthquake" loading="lazy">
-			</a>
-			<br>
-			<a href="img/I%20need%20to%20keep%20moving%20from%20place%20to%20place.webp">
-				<img src="img/thumbs/I%20need%20to%20keep%20moving%20from%20place%20to%20place.webp" alt="I need to keep moving from place to place" loading="lazy">
-			</a>
-			<br>
-			<a href="img/In%20your%20language%20(the%20scourge).webp">
-				<img src="img/thumbs/In%20your%20language%20(the%20scourge).webp" alt="In your language (the scourge)" loading="lazy">
-			</a>
-			<br>
-			<a href="img/Tell%20me%20where%20to%20go%20next.webp">
-				<img src="img/thumbs/Tell%20me%20where%20to%20go%20next.webp" alt="Tell me where to go next" loading="lazy">
-			</a>
-			<br>
-			<a href="img/The%20best%20way%20to%20buy%20the%20products%20you%20love.webp">
-				<img src="img/thumbs/The%20best%20way%20to%20buy%20the%20products%20you%20love.webp" alt="The best way to buy the products you love" loading="lazy">
-			</a>
-			<br>
-			<a href="img/What%20else%20could%20I%20do.webp">
-				<img src="img/thumbs/What%20else%20could%20I%20do.webp" alt="What else could I do" loading="lazy">
-			</a>
-			<br>
-			<a href="img/When%20you%20are%20weary.webp">
-				<img src="img/thumbs/When%20you%20are%20weary.webp" alt="When you are weary" loading="lazy">
-			</a>
-			<br>
-			<a href="img/Where%20is%20the%20elevator.webp">
-				<img src="img/thumbs/Where%20is%20the%20elevator.webp" alt="Where is the elevator" loading="lazy">
-			</a>
-		</p>
-	</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="sakura-vader.css" type="text/css">
+
+        <link rel="stylesheet" href="css/glightbox.css" />
+        <script src="js/glightbox.min.js"></script>
+
+
+
+
+        <!-- Custom Style Overrides -->
+        <style>
+header nav {
+    text-align: center;
+    margin-bottom: 1em;
+}
+                    header nav a {
+                        margin: 0 10px; /* Adds even spacing between the links */
+                    }
+                    footer {
+                        text-align: center;
+                    }
+
+                    /* Only apply grid layouts on screens wider than 600px */
+                    @media (min-width: 600px) {
+                        .gallery-grid {
+                            display: grid;
+                            grid-template-columns: repeat(3, 1fr);
+                            gap: 15px; /* Spacing between grid elements */
+                        }
+
+                        /* Targets Pandoc's hidden wrapper elements (p or figure) */
+                        .gallery-grid > p, 
+                        .gallery-grid > figure {
+                            margin: 0 !important;
+                            padding: 0 !important;
+                            width: 100% !important;
+                        }
+
+                        /* Forces images to fill their slot and crop uniformly */
+                        .gallery-grid img {
+                            width: 100% !important;
+                            height: 250px !important; /* Forces a uniform height. Adjust this number as needed! */
+                            object-fit: cover !important; /* Crops the images evenly instead of stretching them */
+                            margin-bottom: 0 !important; 
+                            display: block;
+                        }
+                    }
+                    .gallery-container {
+                        text-align: center;
+                    }
+
+                    /*.glightbox-trigger img {
+                        width: 300px;
+                        height: auto;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                        transition: transform 0.2s ease, box-shadow 0.2s ease;
+                        cursor: pointer;
+                    }
+                    .glightbox-trigger img:hover {
+                        transform: scale(1.02);
+                        box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+                    }
+*/
+                    .gslide-description {
+                        display: none; 
+                    }
+
+.gscrollbar-fixer{
+  margin-right: auto !important;
+}
+
+body.glightbox-open {
+  scrollbar-gutter: stable;
+}
+
+                    .ginner-container .gslide-media {
+                        max-width: 85vw !important;
+                        max-height: 80vh !important;
+                        margin: auto !important;
+                    }
+
+                    .ginner-container .gslide-image img {
+                        max-width: 100% !important;
+                        max-height: 100% !important;
+                        object-fit: contain !important;
+                    }
+
+
+.gslide-image img.zoomable {
+    pointer-events: none !important;
+    cursor: default !important;
+}
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <a href="index.html"><strong>Home</strong></a> / 
+                <a href="art.html">Art</a> / 
+                <a href="design.html">Design</a> / 
+                <a href="teaching.html">Teaching</a> / 
+                <a href="writing.html">Writing</a> / 
+                <a href="zines.html">Zines</a>
+            </nav>
+            <hr>
+        </header>
+
+        <main>
+            <h1 id="art">Art</h1>
+            <div class="gallery-grid">
+            <p><a href="img/art/When%20you%20are%20weary.webp"
+            class="glightbox" data-title="When you are weary"><img
+            src="img/art/When%20you%20are%20weary.webp"
+            class="responsive-img" loading="lazy"
+            alt="When you are weary" /></a><br />
+            </p>
+            <p><a
+            href="img/art/The%20best%20way%20to%20buy%20the%20products%20you%20love.webp"
+            class="glightbox"
+            data-title="The best way to buy the products you love"><img
+            src="img/art/The%20best%20way%20to%20buy%20the%20products%20you%20love.webp"
+            class="responsive-img" loading="lazy"
+            alt="The best way to buy the products you love" /></a><br />
+            </p>
+            <p><a href="img/art/What%20else%20could%20I%20do.webp"
+            class="glightbox" data-title="What else could I do"><img
+            src="img/art/What%20else%20could%20I%20do.webp"
+            class="responsive-img" loading="lazy"
+            alt="What else could I do" /></a><br />
+            </p>
+            <p><a href="img/art/Tell%20me%20where%20to%20go%20next.webp"
+            class="glightbox"
+            data-title="Tell me where to go next.webp"><img
+            src="img/art/Tell%20me%20where%20to%20go%20next.webp"
+            class="responsive-img" loading="lazy"
+            alt="Tell me where to go next.webp" /></a><br />
+            </p>
+            <p><a
+            href="img/art/Do%20you%20feel%20the%20building%20sway.webp"
+            class="glightbox"
+            data-title="Do you feel the building sway"><img
+            src="img/art/Do%20you%20feel%20the%20building%20sway.webp"
+            class="responsive-img" loading="lazy"
+            alt="Do you feel the building sway" /></a><br />
+            </p>
+            <p><a href="img/art/Endless%20mode.webp" class="glightbox"
+            data-title="Endless mode"><img
+            src="img/art/Endless%20mode.webp" class="responsive-img"
+            loading="lazy" alt="Endless mode" /></a><br />
+            </p>
+            <p><a href="img/art/GYRE.webp" class="glightbox"
+            data-title="GYRE"><img src="img/art/GYRE.webp"
+            class="responsive-img" loading="lazy"
+            alt="GYRE" /></a><br />
+            </p>
+            <p><a href="img/art/Always%20Falling%20Apart.webp"
+            class="glightbox" data-title="Always Falling Apart"><img
+            src="img/art/Always%20Falling%20Apart.webp"
+            class="responsive-img" loading="lazy"
+            alt="Always Falling Apart" /></a><br />
+            </p>
+            <p><a href="img/art/Young%20Thug%201.webp" class="glightbox"
+            data-title="Young Thug"><img
+            src="img/art/Young%20Thug%201.webp" class="responsive-img"
+            loading="lazy" alt="Young Thug" /></a><br />
+            </p>
+            <p><a href="img/art/three.webp" class="glightbox"
+            data-title="Three"><img src="img/art/three.webp"
+            class="responsive-img" loading="lazy"
+            alt="Three" /></a><br />
+            </p>
+            <p><a href="img/art/Water%20spirit.webp" class="glightbox"
+            data-title="Water Spirit"><img
+            src="img/art/Water%20spirit.webp" class="responsive-img"
+            loading="lazy" alt="Water Spirit" /></a><br />
+            </p>
+            <p><a href="img/art/Unknown.webp" class="glightbox"
+            data-title="Unknown"><img src="img/art/Unknown.webp"
+            class="responsive-img" loading="lazy"
+            alt="Unknown" /></a><br />
+            </p>
+            <p><a href="img/art/Unknown2.webp" class="glightbox"
+            data-title="Unknown2"><img src="img/art/Unknown2.webp"
+            class="responsive-img" loading="lazy"
+            alt="Unknown2" /></a><br />
+            </p>
+            <p><a href="img/art/GQTP.webp" class="glightbox"
+            data-title="GQTP"><img src="img/art/GQTP.webp"
+            class="responsive-img" loading="lazy"
+            alt="GQTP" /></a><br />
+            </p>
+            <p><a href="img/art/Bart%20van%20Gogh.webp"
+            class="glightbox" data-title="Bart van Gogh"><img
+            src="img/art/Bart%20van%20Gogh.webp" class="responsive-img"
+            loading="lazy" alt="Bart van Gogh" /></a><br />
+            </p>
+            </div>
+        </main>
+
+        <footer>
+            <hr>
+            <p>&copy; 2026 Eurydice Dye</p>
+        </footer>
+
+    <script src="js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({
+            selector: '.glightbox'
+        });
+    </script>
+ 
+    </body>
 </html>
