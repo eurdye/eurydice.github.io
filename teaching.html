@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="sakura-vader.css" type="text/css">
+
+        <link rel="stylesheet" href="css/glightbox.css" />
+        <script src="js/glightbox.min.js"></script>
+
+
+
+
+        <!-- Custom Style Overrides -->
+        <style>
+header nav {
+    text-align: center;
+    margin-bottom: 1em;
+}
+                    header nav a {
+                        margin: 0 10px; /* Adds even spacing between the links */
+                    }
+                    footer {
+                        text-align: center;
+                    }
+
+                    /* Only apply grid layouts on screens wider than 600px */
+                    @media (min-width: 600px) {
+                        .gallery-grid {
+                            display: grid;
+                            grid-template-columns: repeat(3, 1fr);
+                            gap: 15px; /* Spacing between grid elements */
+                        }
+
+                        /* Targets Pandoc's hidden wrapper elements (p or figure) */
+                        .gallery-grid > p, 
+                        .gallery-grid > figure {
+                            margin: 0 !important;
+                            padding: 0 !important;
+                            width: 100% !important;
+                        }
+
+                        /* Forces images to fill their slot and crop uniformly */
+                        .gallery-grid img {
+                            width: 100% !important;
+                            height: 250px !important; /* Forces a uniform height. Adjust this number as needed! */
+                            object-fit: cover !important; /* Crops the images evenly instead of stretching them */
+                            margin-bottom: 0 !important; 
+                            display: block;
+                        }
+                    }
+                    .gallery-container {
+                        text-align: center;
+                    }
+
+
+                    html.glightbox-open,
+                    body.glightbox-open {
+                        overflow: auto !important;
+                    }
+
+                    .gslide-description {
+                        display: none; 
+                    }
+
+                    .gscrollbar-fixer{
+                        margin-right: auto !important;
+                    }
+
+                    .ginner-container .gslide-media {
+                        max-width: 85vw !important;
+                        max-height: 80vh !important;
+                        margin: auto !important;
+                    }
+
+                    .ginner-container .gslide-image img {
+                        max-width: 100% !important;
+                        max-height: 100% !important;
+                        object-fit: contain !important;
+                    }
+
+
+                    .gslide-image img.zoomable {
+                        pointer-events: none !important;
+                        cursor: default !important;
+                    }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <a href="index.html"><strong>Home</strong></a> / 
+                <a href="art.html">Art</a> / 
+                <a href="design.html">Design</a> / 
+                <a href="teaching.html">Teaching</a> / 
+                <a href="writing.html">Writing</a> / 
+                <a href="zines.html">Zines</a>
+            </nav>
+            <hr>
+        </header>
+
+        <main>
+            <h1 id="teaching">Teaching</h1>
+            <h3 id="courses-taught">Courses Taught</h3>
+            <h5 id="english-103-disability-rhetoric">English 103
+            Disability Rhetoric</h5>
+            <p>Fall 2025</p>
+            <p>First-year composition course designed to introduce
+            students to major concepts, topics, and theorists in
+            disability studies. Readings include selections from
+            Beginning with Disability edited by Lennard J. Davis,
+            Disability Rhetoric by Jay Timothy Dolmage, and Crip
+            Spacetime by Margaret Price.</p>
+            <h5 id="honors-329-psychedelic-rhetorics">Honors 329
+            Psychedelic Rhetorics</h5>
+            <p>Fall 2024, Fall 2025</p>
+            <p>Honors course designed to engage students with rhetoric
+            and literature related to psychedelic medicines. Centers
+            student-led Socratic discussions on texts including
+            Selections by María Sabina, The Archaic Revival by Terence
+            McKenna, and Psychedelic Justice edited by Labate and
+            Cavnar.</p>
+            <h5 id="english-103-psychedelic-rhetorics">English 103
+            Psychedelic Rhetorics</h5>
+            <p>Fall 2022, Spring 2023, Fall 2023, Spring 2024, Spring
+            2026</p>
+            <p>First-year composition course designed to engage students
+            with rhetoric on psychedelic medicines. Course is structured
+            around composition readings from Writing Spaces and other
+            journals alongside analysis of various cultural artifacts.
+            Course projects include a digital museum and a manifesto
+            zine.</p>
+            <h5 id="english-103-rhetoric-of-power">English 103 Rhetoric
+            of Power</h5>
+            <p>Spring 2022, Fall 2022</p>
+            <p>First-year composition course designed to explore the way
+            writing and rhetoric shapes the power structures of our
+            daily lives. Course is structured around readings from
+            Writing Spaces and other journals alongside discussion and
+            analysis of various cultural artifacts.</p>
+            <h5 id="english-103-rhetoric-of-control">English 103
+            Rhetoric of Control</h5>
+            <p>Fall 2021</p>
+            <p>First-year composition course designed to analyze the way
+            language is used to control ourselves and our environments.
+            Course is structured around readings from Naming What We
+            Know and Writing Spaces alongside discussion and analysis of
+            various cultural artifacts.</p>
+        </main>
+
+        <footer>
+            <hr>
+            <p>&copy; 2026 Eurydice Dye</p>
+        </footer>
+
+        <script src="js/glightbox.min.js"></script>
+        <script>
+            const lightbox = GLightbox({
+                selector: '.glightbox'
+            });
+        </script>
+
+    </body>
+</html>
