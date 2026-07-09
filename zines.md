@@ -1,6 +1,3 @@
 # Zines
 
-### [Squid Factory](https://ghostprincess.itch.io/squid-factory)
-
-![Squid Factory cover](https://img.itch.zone/aW1hZ2UvNDUxMjE1OS8yNjg5OTI2Ni5wbmc=/original/EMRBth.png)\
-
+<iframe height="167" frameborder="0" src="https://itch.io/embed/4512159" width="552"><a href="https://ghostprincess.itch.io/squid-factory">SQUID FACTORY by ghostprincess</a></iframe>
