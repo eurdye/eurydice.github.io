@@ -54,30 +54,19 @@ header nav {
                         text-align: center;
                     }
 
-                    /*.glightbox-trigger img {
-                        width: 300px;
-                        height: auto;
-                        border-radius: 8px;
-                        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-                        transition: transform 0.2s ease, box-shadow 0.2s ease;
-                        cursor: pointer;
+
+                    html.glightbox-open,
+                    body.glightbox-open {
+                        overflow: auto !important;
                     }
-                    .glightbox-trigger img:hover {
-                        transform: scale(1.02);
-                        box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-                    }
-*/
+
                     .gslide-description {
                         display: none; 
                     }
 
-.gscrollbar-fixer{
-  margin-right: auto !important;
-}
-
-body.glightbox-open {
-  scrollbar-gutter: stable;
-}
+                    .gscrollbar-fixer{
+                        margin-right: auto !important;
+                    }
 
                     .ginner-container .gslide-media {
                         max-width: 85vw !important;
@@ -92,10 +81,10 @@ body.glightbox-open {
                     }
 
 
-.gslide-image img.zoomable {
-    pointer-events: none !important;
-    cursor: default !important;
-}
+                    .gslide-image img.zoomable {
+                        pointer-events: none !important;
+                        cursor: default !important;
+                    }
         </style>
     </head>
     <body>
@@ -122,12 +111,12 @@ body.glightbox-open {
             <p>&copy; 2026 Eurydice Dye</p>
         </footer>
 
-    <script src="js/glightbox.min.js"></script>
-    <script>
-        const lightbox = GLightbox({
-            selector: '.glightbox'
-        });
-    </script>
- 
+        <script src="js/glightbox.min.js"></script>
+        <script>
+            const lightbox = GLightbox({
+                selector: '.glightbox'
+            });
+        </script>
+
     </body>
 </html>
