@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title></title>
-        <link rel="stylesheet" href="sakura-vader.css" type="text/css">
+        <link rel="stylesheet" href="sakura.css" type="text/css">
 
         <link rel="stylesheet" href="css/glightbox.css" />
         <script src="js/glightbox.min.js"></script>
@@ -20,6 +20,7 @@ header nav {
 }
                     header nav a {
                         margin: 0 10px; /* Adds even spacing between the links */
+                        font-size: 2rem !important;
                     }
                     footer {
                         text-align: center;
@@ -103,7 +104,25 @@ header nav {
 
         <main>
             <h1 id="eurydice.github.io">eurydice.github.io</h1>
-            <p>Personal website</p>
+            <p>Hi, this is my personal website.</p>
+            <h2 id="how-to-add-and-edit-pages">How to add and edit
+            pages</h2>
+            <ol type="1">
+            <li><p>Create your page as a .md Markdown document</p></li>
+            <li><p>Run <code>bash convert_to_html.sh</code> and it will
+            automatically convert all Markdown files to html files. (You
+            will need <code>pandoc</code> installed.)</p></li>
+            <li><p>Deploy to GitHub pages</p></li>
+            </ol>
+            <h2 id="editing-the-site-layout-and-style">Editing the site
+            layout and style</h2>
+            <p>This site uses <a
+            href="https://github.com/oxalorg/sakura">Sakura.css</a> and
+            <a
+            href="https://github.com/biati-digital/glightbox/tree/master">glightbox</a>.
+            The <code>convert_to_html.sh</code> script uses the
+            <code>template.html</code> file as a template, which
+            contains some additional CSS customizations and tweaks.</p>
         </main>
 
         <footer>
