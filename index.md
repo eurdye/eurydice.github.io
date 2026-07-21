@@ -1,11 +1,10 @@
 ---
 title: Eurydice Dye - Artist & Educator
 ---
-
 # Hi, I'm Eurydice
 <br>
 <div class="center-wrapper" style="filter: none;">
-![An image of Eurydice Dye. A brown-haired woman smiles, looking at the camera.](img/eurydice dye.webp)\
+![An image of Eurydice Dye. A brown-haired woman smiles, looking at the camera.](img/eurydice dye.webp#center)\
 That's me!
 </div>
 I'm a multidisciplinary artist and interdisciplinary educator living in California. I have MA and MFA degrees from Chapman University, where I currently teach English and Honors courses as an adjunct lecturer.
@@ -14,4 +13,4 @@ My MA thesis used the work of Mark Fisher, Jack Halberstam, and *Bædan* to expl
 
 I've worked as a book designer for Red Hen Press in Pasadena, as a graphic designer for the Luge N Brews series of bicycle festivals in Orange County, and as an editor for various poetry journals, most recently *december* magazine. My written work has appeared in journals including *Phantom Kangaroo*, *The Bookends Review*, and *Tab Journal*.
 
-In my free time, I enjoy hiking in the nature of Southern California, making music, and tabling at local zine fests. You can reach me at eurydicedye [at] gmail.
+In my free time, I enjoy hiking in the nature of Southern California, making music, and tabling at local zine fests. You can reach me at eurydicedye [at] gmail [dot] com or follow me on Instagram [@ghostprincessxyz](instagram.com/ghostprincessxyz).
