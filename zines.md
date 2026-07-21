@@ -1,6 +1,7 @@
 # Zines
 
 ### SQUID FACTORY
+<br>
 <div class="center-wrapper">
 ![SQUID FACTORY cover](img/zines/Squid Factory cover.webp)\
 </div>
@@ -17,6 +18,7 @@ Available on itch.io:
 ___
 
 ### WHEN MOTHER BITES YOU
+<br>
 <div class="center-wrapper">
 ![WHEN MOTHER BITES YOU cover](img/zines/WMBY cover.webp)\
 </div>
@@ -26,6 +28,7 @@ A transfeminine horror story about joining a jellyfish hivemind, told through me
 ___
 
 ### Ghost Princess Gets C. Difficile
+<br>
 <div class="center-wrapper">
 ![Ghost Princess Gets C. Difficile cover](img/zines/GPGCD cover.webp)\
 </div>
@@ -35,6 +38,7 @@ A comic perzine about my experiencing surviving C. diff.
 ___
 
 ### Dead Horse Official Guidebook
+<br>
 <div class="center-wrapper">
 ![Dead Horse Official Guidebook cover](img/zines/Dead Horse cover.webp)\
 </div>
@@ -44,6 +48,7 @@ An "official guidebook" for my text adventure video game *DEAD HORSE*, including
 ___
 
 ### A Six Letter Word for Slime: Lemuria as Gender Identity
+<br>
 <div class="center-wrapper">
 ![A Six Letter Word for Slime: Lemuria as Gender Identity cover](img/zines/ASLWFS cover.webp)\
 </div>
@@ -53,6 +58,7 @@ A series of cut-up poems made from Wikipedia articles, *A Six Letter Word for Sl
 ___
 
 ### My hair is let down & I feel like forgiving
+<br>
 <div class="center-wrapper">
 ![My hair is let down & I feel like forgiving cover](img/zines/MHILD cover 2.webp)\
 </div>
