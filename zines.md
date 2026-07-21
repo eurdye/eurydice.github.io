@@ -22,7 +22,7 @@ ___
 
 ### WHEN MOTHER BITES YOU
 <div class="center-wrapper">
-![WHEN MOTHER BITES YOU cover](img/zines/WMBY cover.webp#center)\
+![WHEN MOTHER BITES YOU cover](img/zines/WMBY Cover.webp#center)\
 </div>
 A transfeminine horror story about joining a jellyfish hivemind, told through memes and flash fiction.
 <br>
