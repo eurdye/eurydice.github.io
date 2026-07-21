@@ -1,3 +1,7 @@
+---
+title: Teaching - Eurydice Dye
+---
+
 # Teaching
 
 ### Courses Taught

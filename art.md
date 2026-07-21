@@ -1,3 +1,7 @@
+---
+title: Art - Eurydice Dye
+---
+
 # Art
 
 <div class="gallery-grid">

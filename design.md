@@ -1,3 +1,7 @@
+---
+title: Design - Eurydice Dye
+---
+
 # Design
 
 <div class="gallery-grid">

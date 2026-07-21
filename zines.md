@@ -1,3 +1,7 @@
+---
+title: Zines - Eurydice Dye
+---
+
 # Zines
 
 ### SQUID FACTORY

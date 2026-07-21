@@ -1,3 +1,7 @@
+---
+title: Writing - Eurydice Dye
+---
+
 ## Writing
 
 #### Poetry
