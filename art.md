@@ -22,9 +22,13 @@ title: Art - Eurydice Dye
 
 ![](img/art/circle2.webp)\
 
-![](img/art/circle3.webp)\
+![](img/art/circle4.webp)\
 
-<!--- ![](img/art/circle4.webp)\
+![Three](img/art/three.webp)\
+
+![Water Spirit](img/art/Water spirit.webp)\
+
+<!--- ![](img/art/circle3.webp)\
 
 ![](img/art/gyre1.webp)\
 
@@ -38,17 +42,13 @@ title: Art - Eurydice Dye
 
 ![Always Falling Apart](img/art/Always Falling Apart.webp)\
 
-![Young Thug](img/art/Young Thug 1.webp)\
-
-![Three](img/art/three.webp)\
-
-![Water Spirit](img/art/Water spirit.webp)\
-
 <!--- ![Unknown](img/art/Unknown.webp)\ -->
 
 ![Unknown2](img/art/Unknown2.webp)\
 
 ![GQTP](img/art/GQTP.webp)\
+
+![Young Thug](img/art/Young Thug 1.webp)\
 
 ![](img/art/Back.webp)\
 
